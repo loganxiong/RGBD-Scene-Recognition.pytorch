@@ -1,9 +1,9 @@
 # PyTorch Image Classification
 
-Following networks are implemented using PyTorch.
+Following RGB-D Scene recognition networks are implemented using PyTorch.
 
-* ResNet
-* ResNet-preact 
+* ResNet RGB-D
+* ResNet-attention RGB-D
 ...
 
 
@@ -56,9 +56,9 @@ $ ./train.py --arch wrn --outdir results --scheduler cosine
 
 | Model                                  | Mean-class Accuracy        | Pixel Accuracy    | Training Time |
 |:---------------------------------------|:--------------------------:|:-----------------:|--------------:|
-| ResNet-18 RGB                          |           67.29%           | 73.5%             |      1h20m    |
-| ResNet-18 RGB-D                        |           66.52%           | 74.3%             |      3h06m    |
-| ResNet-preact-18 RGB-D                 |           66.47%           | 76.3%             |      3h05m    |
+| ResNet-18 RGB                          |           62.91%           | 67.5%             |      20m    |
+| ResNet-18 RGB-D                        |           66.93%           | 69.3%             |      36m    |
+| ResNet-Attention-18 RGB-D              |           68.47%           | 71.7%             |      36m    |
 
 
 
