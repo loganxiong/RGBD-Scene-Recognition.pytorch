@@ -1,0 +1,22 @@
+{
+  "model_config": {
+    "arch": "rgb_ask_alexnet"
+  },
+  "optim_config": {
+    "optimizer": "adam",
+    "base_lr": 1e-3,
+    "betas": [0.9, 0.999],
+    "epochs": 200,
+    "eps": 1e-10,
+    "weight_decay": 0,
+    "amsgrad": true,
+    "scheduler": "multistep",
+    "milestones": [
+      100,
+      200,
+      260
+    ],
+    "lr_decay": 0.1,
+    "batch_size": 128
+  }
+}
