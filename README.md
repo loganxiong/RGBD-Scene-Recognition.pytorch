@@ -4,6 +4,9 @@ Following RGB-D Scene recognition networks are implemented using PyTorch.
 
 * ResNet RGB-D
 * ResNet-attention RGB-D
+* TODO
+  1. GCN based-- ACM: Adaptive Cross-Modal Graph Convolutional Neural Networks for RGB-D Scene Recognition
+  2. ASK model-- ASK: Adaptively Selecting Key Local Features for RGB-D Scene Recognition
 ...
 
 
