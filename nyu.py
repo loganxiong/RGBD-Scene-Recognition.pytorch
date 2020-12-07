@@ -117,7 +117,7 @@ class NYU(data.Dataset):
             self.read_lines(scene_train_file, rgb_train, hha_train, label_train, 'train')
             return rgb_train, hha_train, label_train 
         else:
-            scene_test_file = self.root + 'nyu_scene_split_test.txt'
+            scene_test_file = self.root + 'nyu_scene_split_val.txt'
             with open(scene_test_file,'r') as f:
                 test_num = len(f.readlines())
             rgb_test = np.zeros([test_num,self.input_shape,self.input_shape,3])
